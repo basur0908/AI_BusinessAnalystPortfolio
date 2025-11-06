@@ -1,0 +1,31 @@
+BPMN/FlowCharts: As a Business Analyst, its was my job to not only gather requirements but translate them into smaller visual components describing how a partilcuar module operates,
+who are the key players in that module,how does the data flows, what are the pivots, the decision points, alternate flows, areas of failure.
+
+
+Mini Case Study:
+Lets take an exmaple of an online food delievry app. Here the key players are the customers,restaurants and the riders all of whom are onlboarded as part of the platform.
+In an idea situtaion the flow is described as below. 
+
+
+Start: Customer logs in
+    → Browse food options
+    → Select and order food
+    → Make payment
+        → [Decision] Payment successful?
+            → Yes: Create order
+                → Restaurant receives order notification
+                → Restaurant accepts order
+                → Prepare food
+                → Mark order as ready
+                → Notify delivery system / assign driver
+                → Driver picks up order
+                → Update status: Out for delivery
+                → Deliver food to customer
+                → Update status: Delivered
+                → Send delivery confirmation to customer
+                → End: Order completed successfully
+            → No: Notify payment failure
+                → Return to: Make payment
+
+
+
