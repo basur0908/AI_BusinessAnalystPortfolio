@@ -4,7 +4,7 @@ who are the key players in that module,how does the data flows, what are the piv
 
 Mini Case Study:
 Lets take an exmaple of an online food delievry app. Here the key players are the customers,restaurants and the riders all of whom are onlboarded as part of the platform.
-In an idea situtaion the flow is described as below. 
+In an idea situtaion the flow is described as below. I have given the following promtp in Lucidchart.AI
 
 
 Start: Customer logs in
@@ -26,6 +26,19 @@ Start: Customer logs in
                 → End: Order completed successfully
             → No: Notify payment failure
                 → Return to: Make payment
+
+Now as a BA, this step only comes after I have gathered all the requirements from the stakeholders, understood the process flows,alternate flows, pivots, exception handling etc.
+My next step is to validate with my SME and make further changes until it alighns with the business processes.
+
+Key Takeways:
+Since each organisation may have multiple business processes, its imprtant to identify one and break it down into smaller components instead of making it a monstrous diagram that may be confusing.
+Define start and end points as they help establish boundaries in the flow.
+
+AI is still learning. In my opinion,swimlanes are its still something many diagrammatic AI tools are unable to pull off. Lucid AI cant , Miro also struggles, however they do have pre existing strcutured
+templates that will surely help.
+Whimsical AI to my knowledge is till way behind. its starts to nterpret and gets messy with decsions.
+
+
 
 
 
